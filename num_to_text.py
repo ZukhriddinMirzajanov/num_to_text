@@ -137,7 +137,7 @@ def num_to_text(number):
                     full_text+='milyon'
                     return full_text
                 elif int(num) != 0:
-                    full_text+=num10[int(num)]
+                    full_text+=numbers_in_texts[int(num)]
                     length_of_str_num-=1
                 else:
                     length_of_str_num-=1
@@ -174,7 +174,7 @@ def num_to_text(number):
                     full_text+='milyard'
                     return full_text
                 elif int(num) != 0:
-                    full_text+=num10[int(num)]
+                    full_text+=numbers_in_texts[int(num)]
                     length_of_str_num-=1
                 else:
                     length_of_str_num-=1
@@ -211,7 +211,7 @@ def num_to_text(number):
                     full_text+='trilyon'
                     return full_text
                 elif int(num) != 0:
-                    full_text+=num10[int(num)]
+                    full_text+=numbers_in_texts[int(num)]
                     length_of_str_num-=1
                 else:
                     length_of_str_num-=1
@@ -246,7 +246,7 @@ def num_to_text(number):
                     full_text+='kvadrillion'
                     return full_text
                 elif int(num) != 0:
-                    full_text+=num10[int(num)]
+                    full_text+=numbers_in_texts[int(num)]
                     length_of_str_num-=1
                 else:
                     length_of_str_num-=1
